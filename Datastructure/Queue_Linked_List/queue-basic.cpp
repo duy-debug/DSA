@@ -37,7 +37,7 @@ int size(node *queue){
   return cnt;
 }
 void duyet(node *queue){
-  while(queue!=NULL){
+  while(queue!=NULL){   
     printf("%2d", queue->data);
     queue=queue->next;
   }
