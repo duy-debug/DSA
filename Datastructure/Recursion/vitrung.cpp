@@ -2,7 +2,7 @@
 int S(int n, int sogio){
 	if(sogio==0) return n;
 	else return S(n,sogio-1)*2;
-}
+}	
 int main(){
 	int n, sogio;
 	printf("Nhap so vi trung: ");

@@ -118,7 +118,7 @@ int Sum(node *root, int value){
 // 8. Dem so luong cac nut co gia tri chan
 int Count_Numbers(node *root){
   if(root==NULL) 
-    return 0;
+    return 0;   
   int cnt=0;
   if(root->data%2==0)
     cnt=1;
