@@ -27,11 +27,6 @@ void sort(int a[], int n){
 			}
 		}
 }
-struct node{
-	int data;
-	node *next;
-};
-typedef struct node node;
 int main(){
 	int n;
 	printf("Nhap n: ");
