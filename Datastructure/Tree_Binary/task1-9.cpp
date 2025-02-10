@@ -159,6 +159,12 @@ int main(){
     printf("Gia tri %d duoc tim thay trong cay\n", x);  
     else printf("Gia tri %d khong tim thay\n", x);
     printf("Muc cua nut vua tim duoc la: %d\n", find_level(root,x,0));
+    node *maxNode = find_Max(root);
+    if (maxNode != NULL) {
+        printf("Gia tri lon nhat: %d\n", maxNode->data);
+    } else {
+        printf("Cay rong!\n");
+    }
     int y;
     printf("Nhap nut can xoa: ");
     scanf("%d", &y);
